@@ -1,0 +1,22 @@
+{
+  "name": "flightapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduard Razhapov",
+  "license": "MS-PL",
+  "dependencies": {
+    "asyncawait": "^1.0.2",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "morgan": "^1.6.1",
+    "promise": "^7.1.1",
+    "request": "^2.69.0",
+    "serve-favicon": "^2.3.0",
+    "serve-static": "^1.10.2",
+    "wait.for": "^0.6.6"
+  }
+}
