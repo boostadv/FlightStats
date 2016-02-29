@@ -15,7 +15,7 @@ background-color: #2B2F38;
 position: absolute;
 transform:scale(0.7);
 -webkit-transform:scale(0.7);
-top:-5%;
+top:-10%;
 
 }
 
@@ -55,6 +55,14 @@ header .title p {
 
 /*CALENDAR */
 
+.calendar {
+	margin-top: 15px;
+}
+
+#blocks, .calendar img  {
+	padding-left: 5px;
+}
+
 .calendar > h2 {
   margin-bottom: 40px;
     font-weight: 300;
@@ -68,7 +76,10 @@ header .title p {
   border-radius: 5px;
   margin: 10px;
   cursor: pointer;
-  
+}
+
+.calendar img {
+ margin-left: 45px;
 }
 
 .calendar .block > h2 {
@@ -93,6 +104,11 @@ header .title p {
   color: #000; 
 }
 
+#showNextDates, #showPrevDates {
+	cursor: pointer;
+}
+
+
 
 /* FOOT */
 
@@ -107,3 +123,37 @@ text-align: center;
 font-size: 8pt;
 }
 
+  #info {
+	  display: none;
+  } 
+
+
+  @media screen and (max-width: 1200px), screen and (max-height: 630px) {
+   #map {
+	   display: none;
+   }
+   
+  #info {
+	  display: block;
+	  width: 100%;
+	  height: 100%;
+	  top: 0;
+	  left: 0;
+	  position: fixed;
+	  z-index: 100;
+	  background-color: #2B2F38;
+	  		text-align: center;
+			  		margin: auto;
+  } 
+  
+    #info h2 { 
+position: absolute;
+   top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+	font-weight: 100;
+	}
+  
+   }

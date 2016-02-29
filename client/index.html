@@ -2,54 +2,31 @@
 <html lang="ru">
 
 <head>
-    <meta charset="utf-8">
-    <title>CheapAero</title>
-    <link rel="stylesheet" href="res/core.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<title>CheapAero</title>
+	<link rel="stylesheet" href="res/core.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <header class="wrapper">
-        <div class="title">
-            <h1>Easy Aero</h1>
-            <p>Найди самые дешевые билеты по всему миру</p>
-        </div>
-    </header>
-    <div class="wrapper calendar">
-        <h2>Выберите любой день</h2>
-        <div class="block">
-            <h2>13</h2>
-            <p>февраля</p>
-            </div>
-            <div class="block selected">
-            <h2>14</h2>
-            <p>февраля</p>
-            </div>
-            <div class="block">
-            <h2>15</h2>
-            <p>февраля</p>
-            </div>
-               <div class="block">
-            <h2>16</h2>
-            <p>февраля</p>
-            </div>
-               <div class="block">
-            <h2>17</h2>
-            <p>февраля</p>
-            </div>
-               <div class="block">
-            <h2>18</h2>
-            <p>февраля</p>
-            </div>
-                 <div class="block">
-            <h2>19</h2>
-            <p>февраля</p>
-            </div>
-    </div>
-    <svg id="map"></svg>
-    <footer>© 2016, Easy Aero. Все права защищены.</footer>
+	<header class="wrapper">
+		<div class="title">
+			<h1>Easy Aero</h1>
+			<p>Найди самые дешевые билеты по всему миру</p>
+		</div>
+	</header>
+	<div class="wrapper calendar">
+		<img src="res/Collapse Arrow-30.png" id="showPrevDates" style="visibility: hidden;">
+		<div id="blocks">
+		</div>
+		<img src="res/Expand Arrow-30.png" id="showNextDates">
+	</div>
+	<svg id="map"></svg>
+	<div id="info"><h2>К сожалению, сайт не работает на маленьких экранах.</h2></div>
+	<footer>© 2016, Easy Aero. Все права защищены.</footer>
 </body>
-    <script src="plugins/snap.svg-min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="res/core.js"></script>
+<script src="plugins/snap.svg-min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="res/core.js"></script>
+
 </html>
